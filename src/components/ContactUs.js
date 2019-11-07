@@ -7,18 +7,19 @@ export default class ContactUs extends Component {
       <section id="contact">
       <div className="row section-head">
          <div className="two columns header-col">
-            <h1><span></span></h1>
+            <h2><span></span></h2>
          </div>
+
          <div className="ten columns">
-               <p className="lead">Please fill in the form below to stay in touch.
+           <h1>Get In Touch</h1>
+               <p className="lead">Please fill in the form below to contact me.
                </p>
-               <p className="lead">Alternatively, you can send me an email as well in the Address Section.</p>
+               <p className="lead">Alternatively, you can send me an email as well.</p>
          </div>
       </div>
       <div className="card-body row">
          <div className="eight columns">
             <form method="POST" data-netlify="true" id="contactForm" name="contactForm">
-
                <div>
             <label htmlFor="contactName">Name <span className="required">*</span></label>
             <input type="text" size="35" id="contactName" name="contactName" />
@@ -35,7 +36,7 @@ export default class ContactUs extends Component {
 
                <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea>
+                  <textarea cols="10" rows="5" id="contactMessage" name="contactMessage"></textarea>
                </div>
                <div>
                   <button className="submit">Submit</button>

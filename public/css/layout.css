@@ -264,8 +264,8 @@ ul#nav li.current a { color: #DEC79B; }
    color: #F2F2F2
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
-   color: #DEC79B
+   font: 'opensans-bold', sans-serif;
+   color: #DEC79B;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -279,7 +279,7 @@ ul#nav li.current a { color: #DEC79B; }
 #resume .info {
    font: 'librebaskerville', serif;
    color: #F2F2F2;
-   margin-bottom: 18px;
+   margin-bottom: 13px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -292,7 +292,7 @@ ul#nav li.current a { color: #DEC79B; }
 }
 
 /*----------------------------------------------*/
-/*	Skill Table
+/*	Skills Table
 /*----------------------------------------------*/
 #resume .table, .table1 {
   display: inline-table;
@@ -645,18 +645,21 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #3CBCC3; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
-   margin-bottom: 6px;
+   color: #DEC79B;
+   margin-bottom: 25px;
 }
-#contact h1 span { display: none; }
-#contact h1:before {
+#contact h1 span {
+  text-align: center;
+}
+
+#contact h2:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
+   padding-right: 10px;
+   font-size: 72px;
    line-height: 72px;
    text-align: left;
    float: left;
@@ -666,7 +669,7 @@ call-to-action .button {
 #contact h3 {
    font: 'opensans-bold', sans-serif;
    color: #F2F2F2;
-   margin-bottom: 6px;
+   margin-bottom: 4px;
 }
 #contact p.lead {
    font: 'opensans', sans-serif;
@@ -686,25 +689,26 @@ call-to-action .button {
 	float: left;
    width: 26%;
 }
+
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
-   color: #000;
-   background: #CCCCCC;
-   margin-bottom: 42px;
-   border: 0;
-   outline: inherit;
-   font-size: 15px;
-   line-height: 24px;
-   width: 60%;
-   resize: none;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #e40c2b;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 14px;
 }
+
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #000000;
-	background-color: #DEC79B;
+	color: #F2F2F2;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -718,14 +722,17 @@ call-to-action .button {
    border-radius: 3px;
    margin-left: 26%;
 }
+
 #contact button.submit:hover {
 	color: #0D0D0D;
 	background: #d1b275;
 }
+
 #contact span.required {
 	color: #e40c2b;
 	font-size: 13px;
 }
+
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;

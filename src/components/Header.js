@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typed from 'typed.js';
 
 
 export default class Header extends Component {
@@ -18,7 +19,6 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
