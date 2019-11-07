@@ -18,7 +18,7 @@ export default class ContactUs extends Component {
       <div className="card-body row">
          <div className="eight columns">
             <form method="POST" data-netlify="true" id="contactForm" name="contactForm">
-       <fieldset>
+
                <div>
             <label htmlFor="contactName">Name <span className="required">*</span></label>
             <input type="text" size="35" id="contactName" name="contactName" />
@@ -43,7 +43,6 @@ export default class ContactUs extends Component {
                      <img alt="" src="images/loader.gif" />
                   </span>
                </div>
-       </fieldset>
         </form>
       </div>
          <aside className="four columns footer-widgets">

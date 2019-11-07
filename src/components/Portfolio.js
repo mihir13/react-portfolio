@@ -8,19 +8,19 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h2>Some of my recent projects</h2>
-          <div id="portfolio-wrapper" className="bgrid-quarters">
+          <h2>Some of my Recent Projects</h2>
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal">
+                    <a href={`${item.modal}`}>
                       <img src={`${item.imgurl}`} className="item-img" alt=""/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <h4>{item.name}</h4>
+                          <p>Click to View</p>
                         </div>
                       </div>
                     </a>
@@ -30,7 +30,27 @@ export default class Porfolio extends Component {
             })
           }
           </div>
-
+          {/* Modal Popup*/}
+          <div id="modal-wrapper">
+            {
+              resumeData.portfolio && resumeData.portfolio.map((item)=>{
+                return(
+                  <div id={item.id} class="popup-modal mfp-hide">
+                    <img className="scale-with-grid" src={`${item.imgurl}`} alt="" />
+                    <div className="description-box">
+                      <h4>{item.name}</h4>
+                      <p>{item.description}</p>
+                      <span className="categories"><i class="fa fa-tag"></i>{item.tag}</span>
+                    </div>
+                    <div className="link-box">
+                      <a href={`${item.url}`}>Details</a>
+                      <a className="popup-modal-dismiss">Close</a>
+                    </div>
+                  </div>
+                )
+              })
+            }
+          </div>
         </div>
       </div>
   </section>
