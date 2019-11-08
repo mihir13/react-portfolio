@@ -12,9 +12,8 @@ export default class ContactUs extends Component {
 
          <div className="ten columns">
            <h1>Get In Touch</h1>
-               <p className="lead">Please fill in the form below to contact me.
-               </p>
-               <p className="lead">Alternatively, you can send me an email as well.</p>
+               <p className="lead">Please fill in the form below to contact me. <br/>
+               Alternatively, you can send me an email as well.</p>
          </div>
       </div>
       <div className="card-body row">

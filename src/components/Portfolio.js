@@ -11,9 +11,9 @@ export default class Porfolio extends Component {
           <h2>Some of my Recent Projects</h2>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" key={i}>
                   <div className="item-wrap">
                     <a href={`${item.modal}`}>
                       <img src={`${item.imgurl}`} className="item-img" alt=""/>
@@ -33,18 +33,18 @@ export default class Porfolio extends Component {
           {/* Modal Popup*/}
           <div id="modal-wrapper">
             {
-              resumeData.portfolio && resumeData.portfolio.map((item)=>{
+              resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
                 return(
-                  <div id={item.id} class="popup-modal mfp-hide">
+                  <div id={item.id} className="popup-modal mfp-hide" key={i}>
                     <img className="scale-with-grid" src={`${item.imgurl}`} alt="" />
                     <div className="description-box">
                       <h4>{item.name}</h4>
                       <p>{item.description}</p>
-                      <span className="categories"><i class="fa fa-tag"></i>{item.tag}</span>
+                      <span className="categories"><i className="fa fa-tag"></i>{item.tag}</span>
                     </div>
                     <div className="link-box">
                       <a href={`${item.url}`}>Details</a>
-                      <a className="popup-modal-dismiss">Close</a>
+                      <a href="" className="popup-modal-dismiss">Close</a>
                     </div>
                   </div>
                 )

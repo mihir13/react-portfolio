@@ -56,23 +56,6 @@
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }
 
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;
-   }
-
-    /* Call to Action Section
-   ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
 
    /* Contact Section
    ------------------------------------------------------------------- */
@@ -117,7 +100,7 @@
 
       position: relative;
       top: 0px;
-      right: 10px;
+      right: 0px;
 
    }
 
@@ -205,12 +188,12 @@
    header .social li { margin: 0 10px; }
 
     /* scrolldown link */
-   header .scrolldown { display: none; }
+   header .scrolldown {}
 
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic {}
    #about .download .button {
       width: 100%;
       text-align: center;
@@ -233,23 +216,12 @@
    .bars { width: 100%; }
 
 
-   /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-   #call-to-action { text-align: center; }
-   #call-to-action h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #call-to-action h1 span { display: block; }
-   #call-to-action .header-col h1:before { content: none; }
-   #call-to-action p { font-size: 15px; }
-
-
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 90%; }
+   #portfolio-wrapper .columns {
+     margin-bottom: 90%;
+     margin-right: 20px;
+    }
    .popup-modal {	max-width: 85%; }
 
 
@@ -266,7 +238,9 @@
    #contact h1 span { display: block; }
    #contact .header-col { padding-top: 0; }
    #contact .header-col h1:before { content: none;	}
-   #contact .section-head p.lead { text-align: center;}
+   #contact .section-head p.lead {
+     margin-top: 60px;
+     text-align: center;}
 
    /* form */
    #contact label {
