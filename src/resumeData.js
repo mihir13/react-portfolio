@@ -96,7 +96,7 @@ let resumeData = {
         "name":"MiTunes",
         "description":"Music player application made using Vanilla JavaScript.",
         "imgurl":"images/portfolio/Portfolio_3.png",
-        "url":"https://github.com/mihir13/MiTunes",
+        "url":"https://mihir13.github.io/MiTunes/",
         "tag":"JavaScript, Music Player, BBC Animal Songs",
         "modal":"#modal-03",
         "id":"modal-03"
