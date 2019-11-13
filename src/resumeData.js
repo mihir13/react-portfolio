@@ -136,6 +136,15 @@ let resumeData = {
         "tag":"Quantopian, Jupyter Notebook, Python3",
         "modal":"#modal-07",
         "id":"modal-07"
+      },
+      {
+        "name":"Travel App",
+        "description":"A Travel App prototype made using React Native and Expo. The prototype contains a list of destinations and destination details.",
+        "imgurl":"images/portfolio/portfolio_8.jpg",
+        "url":"https://github.com/mihir13/travel_app",
+        "tag":"React Native, Expo, iOS",
+        "modal":"#modal-08",
+        "id":"modal-08"
       }
     ]
   }
