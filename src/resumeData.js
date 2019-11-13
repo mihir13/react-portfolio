@@ -41,10 +41,7 @@ let resumeData = {
     "skillsDescription":"My skills are combination of front-end and back-end languages since I like to have flexibility and versatility.",
     "skills1":[
       {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
+        "skillname":"HTML5 and CSS "
       },
       {
         "skillname":"JavaScript"
@@ -54,6 +51,9 @@ let resumeData = {
       },
       {
         "skillname":"Node.js"
+      },
+      {
+        "skillname":"Swift UI"
       }
     ],
     "skills2":[
@@ -70,7 +70,7 @@ let resumeData = {
         "skillname":"SQLite3"
       },
       {
-        "skillname":""
+        "skillname":"Firebase"
       }
     ],
     "portfolio":[
