@@ -31,10 +31,17 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"London Magical Tours",
+        "specialization":"Internship - Web Developer",
+        "StartDate":"November 2019 - ",
+        "EndDate":"February 2020",
+        "Achievements":"Working as a full-stack Web Developer, with primary focus on Back-End E-Commerce skills. Main languages used - PHP, MySQL and JavaScript."
+      },
+      {
         "CompanyName":"Hassan Event Management",
         "specialization":"Work Experience - Volunteer",
-        "MonthOfLeaving":"July 2017 -",
-        "YearOfLeaving":"August 2017",
+        "StartDate":"July 2017 -",
+        "EndDate":"August 2017",
         "Achievements":"Started as a volunteer and worked my way up to be a team manager. Through the experience, I learnt how to keep up with changes in a work environment and adapt to changes."
       }
     ],
