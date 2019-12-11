@@ -18,7 +18,7 @@ export default class ContactUs extends Component {
       </div>
       <div className="card-body row">
          <div className="eight columns">
-            <form method="POST" data-netlify="true" id="contactForm" name="contactForm">
+            <form method="POST" netlify action='/pages/success' data-netlify="true" id="contactForm" name="contact">
                <div>
             <label htmlFor="contactName">Name <span className="required">*</span></label>
             <input type="text" size="35" id="contactName" name="contactName" />
