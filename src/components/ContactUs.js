@@ -38,7 +38,7 @@ export default class ContactUs extends Component {
                   <textarea cols="10" rows="5" id="contactMessage" name="contactMessage"></textarea>
                </div>
                <div>
-                  <button className="submit">Submit</button>
+                  <button type='submit' className="submit">Submit</button>
                   <span id="image-loader">
                      <img alt="" src="images/loader.gif" />
                   </span>
