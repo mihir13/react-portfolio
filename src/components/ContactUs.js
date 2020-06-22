@@ -12,12 +12,11 @@ export default class ContactUs extends Component {
 
          <div className="ten columns">
            <h1>Get In Touch</h1>
-               <p className="lead">Please fill in the form below to contact me. <br/>
-               Alternatively, you can send me an email as well.</p>
+               <p className="lead">Please feel free to contact me on my email below.</p>
          </div>
       </div>
       <div className="card-body row">
-         <div className="eight columns">
+      {/*   <div className="eight columns">
             <form method="POST" netlify action='/pages/success' data-netlify="true" id="contactForm" name="contact">
                <div>
             <label htmlFor="contactName">Name <span className="required">*</span></label>
@@ -44,15 +43,15 @@ export default class ContactUs extends Component {
                   </span>
                </div>
         </form>
-      </div>
-         <aside className="four columns footer-widgets">
-            <div className="widget widget_contact">
-          <h3>Email Address</h3>
-          <p className="address">
-          <a href="mailto:mihirt13@yahoo.com">mihirt13@yahoo.com</a>
-          </p>
+      </div> */}
+         <div className="four columns footer-widgets">
+          <div className="widget widget_contact">
+            <h3>Email Address</h3>
+            <p className="address">
+            <a href="mailto:mihirt13@yahoo.com">mihirt13@yahoo.com</a>
+            </p>
+          </div>
         </div>
-         </aside>
    </div>
 
 </section>

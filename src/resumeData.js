@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Mihir Thakker",
-    "role": "Web Developer and a Financial Trader",
+    "role": "Web Developer",
     "linkedinId":"Mihir Thakker",
     "skypeid": "Your skypeid",
     "socialLinks":[
@@ -14,6 +14,11 @@ let resumeData = {
           "name":"github",
           "url":"http://github.com/mihirt13",
           "className":"fa fa-github"
+        },
+        {
+          "name":"youtube",
+          "url":"https://www.youtube.com/channel/UC4IYtkEeXyVTC3pBBaLzD3w",
+          "className":"fa fa-youtube"
         },
       ],
     "aboutme":
@@ -34,8 +39,8 @@ let resumeData = {
         "CompanyName":"London Magical Tours",
         "specialization":"Internship - Web Developer",
         "StartDate":"November 2019 - ",
-        "EndDate":"February 2020",
-        "Achievements":"Working as a full-stack Web Developer, with primary focus on Back-End E-Commerce skills. Main languages used - PHP, MySQL and JavaScript."
+        "EndDate":"June 2020",
+        "Achievements":"Full-stack Web Developer, with primary focus on E-Commerce and Tourism. Main languages used - PHP, MySQL and JavaScript."
       },
       {
         "CompanyName":"Hassan Event Management",
@@ -54,12 +59,6 @@ let resumeData = {
         "skillname":"JavaScript"
       },
       {
-        "skillname":"React.js"
-      },
-      {
-        "skillname":"Node.js"
-      },
-      {
         "skillname":"Swift UI"
       }
     ],
@@ -72,9 +71,6 @@ let resumeData = {
       },
       {
         "skillname":"MySQL"
-      },
-      {
-        "skillname":"SQLite3"
       },
       {
         "skillname":"Firebase"
