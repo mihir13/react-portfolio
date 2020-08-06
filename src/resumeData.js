@@ -39,7 +39,7 @@ let resumeData = {
         "CompanyName":"London Magical Tours",
         "specialization":"Internship - Web Developer",
         "StartDate":"November 2019 - ",
-        "EndDate":"June 2020",
+        "EndDate":"August 2020",
         "Achievements":"Full-stack Web Developer, with primary focus on E-Commerce and Tourism. Main languages used - PHP, MySQL and JavaScript."
       },
       {
