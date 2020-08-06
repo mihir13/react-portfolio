@@ -20,7 +20,7 @@ export default class Footer extends Component {
             }
           </ul>
           <ul className="copyright">
-               <li>&copy; Copyright 2019</li>
+               <li>&copy; Copyright 2020</li>
                <li>Designed by Mihir Thakker</li>
             </ul>
         </div>
