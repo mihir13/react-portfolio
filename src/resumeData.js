@@ -29,8 +29,8 @@ let resumeData = {
       {
         "UniversityName":"Loughborough University",
         "specialization":"BSc. in Computing and Management",
-        "MonthOfPassing":" 10/2017 -",
-        "YearOfPassing":"06/2021",
+        "MonthOfPassing":"September 2017 -",
+        "YearOfPassing":"June 2021",
         "Achievements":""
       },
     ],
