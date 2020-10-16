@@ -16,34 +16,29 @@ export default class ContactUs extends Component {
          </div>
       </div>
       <div className="card-body row">
-      {/*   <div className="eight columns">
-            <form method="POST" netlify action='/pages/success' data-netlify="true" id="contactForm" name="contact">
-               <div>
-            <label htmlFor="contactName">Name <span className="required">*</span></label>
-            <input type="text" size="35" id="contactName" name="contactName" />
-               </div>
-               <div>
-            <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-            <input type="email" size="35" id="contactEmail" name="contactEmail" />
-               </div>
-
-               <div>
-            <label htmlFor="contactSubject">Subject</label>
-            <input type="text" size="35" id="contactSubject" name="contactSubject" />
-               </div>
-
-               <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols="10" rows="5" id="contactMessage" name="contactMessage"></textarea>
-               </div>
-               <div>
-                  <button type='submit' className="submit">Submit</button>
-                  <span id="image-loader">
-                     <img alt="" src="images/loader.gif" />
-                  </span>
-               </div>
-        </form>
-      </div> */}
+      
+          <div class='col-6 mx-auto'>
+            <form action="https://formspree.io/f/xoqperrl" method="POST">
+              <div class="form-group">
+                <label>Name</label>
+                <input class='form-control' type="text" name="name">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input class='form-control' type="email" name="_replyto">
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+               <textarea class='form-control' name="message" placeholder="Type your message" required></textarea>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+               <input class='form-control' type="submit" value="Send">
+              </div>
+            </form>
+          </div>
+      
          <div className="four columns footer-widgets">
           <div className="widget widget_contact">
             <h3>Email Address</h3>
